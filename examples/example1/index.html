@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>astra player demo 1</title>
+  <link rel="stylesheet" href="../../packages/astra-player/dist/astra-player.css">
+  <style>
+    .container {
+      margin: 0 auto;
+      width: 800px;
+      height: 450px;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="player"></div>
+  </div>
+  <script src="../../packages/astra-player/dist/astra-player.global.js"></script>
+  <script>
+    var video = document.querySelector('#player');
+    var player = new window.Astra.Player(video);
+  </script>
+</body>
+</html>
