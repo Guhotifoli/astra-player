@@ -14,7 +14,7 @@ execa(
     [
       `COMMIT:${commit}`,
       `TARGET:${target}`,
-      `FORMATS:${formats || 'global'}`,
+      `FORMATS:${formats || 'min'}`,
       sourceMap ? `SOURCE_MAP:true` : ``,
     ]
       .filter(Boolean)

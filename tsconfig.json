@@ -10,21 +10,26 @@
     "allowJs": false,
     "strict": true,
     "noUnusedLocals": true,
-    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "removeComments": false,
-    "jsx": "preserve",
-    "lib": ["esnext", "dom"],
-    "types": ["node"],
+    "removeComments": true,
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "es2019",
+      "es2020",
+      "esnext",
+      "dom"
+    ],
     "paths": {
       "@astra-player/*": ["packages/*/src"],
       "astra-player": ["packages/astra-player/src"]
     }
   },
-  "include": [
-    "packages/global.d.ts",
-    "packages/*/src"
-  ]
+  "include": ["packages/global.d.ts", "packages/*/src"]
 }
