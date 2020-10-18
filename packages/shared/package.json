@@ -1,0 +1,23 @@
+{
+  "name": "@astra-player/shared",
+  "version": "0.0.1",
+  "description": "@astra-player/shared",
+  "keywords": [],
+  "author": "Guhotifoli <Guhotifoli@gmail.com>",
+  "license": "MIT",
+  "main": "dist/shared.min.js",
+  "module": "dist/shared.esm.js",
+  "typings": "dist/shared.d.ts",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "index.js",
+    "dist",
+    "package.json"
+  ],
+  "repository": "git@github.com:Guhotifoli/astra-player.git",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  }
+}
